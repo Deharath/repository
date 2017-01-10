@@ -1,0 +1,102 @@
+a,u
+{
+  text-decoration: none;
+}
+body
+{
+  background-image: url(background.jpg);
+  background-position: fixed;
+}
+
+#logo
+{
+  display: block;
+  text-align: center;
+  border-radius: 40%;
+}
+
+#meem
+{
+  text-align: center;
+  font-size: 100px;
+  background: -webkit-linear-gradient(bottom left, #99ea8f, #fff);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#contact
+{
+  background-color: #94b290;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 100px;
+}
+
+#menu
+{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  width: 350px;
+  background-color: #435435;
+  font-size: 35px;
+  color: #94b290;
+  border-radius: 10%;
+  text-align: center;
+}
+#menu:hover
+{
+  color: #daf7d7;
+  top: 5px;
+}
+.menu_option
+{
+  display: inline-block;
+  margin-left: 10px;
+  float: left;
+  margin: 10px;
+}
+
+#maintext
+{
+background-image: url("got.jpg");
+background-position: center;
+font-size: 35px;
+height: auto;
+width: 900px;
+text-align: center;
+color: #EDEDED;
+text-shadow: 10 10 20 black;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+border: solid 5px black;
+padding: 14px;
+margin-bottom: 40px;
+}
+.gothic
+{
+background: linear-gradient(to bottom right, #7ca066, #cfeac0);
+background-color: #6a825d;
+border: solid 3px black;
+border-radius: 10px;
+float: left;
+font-size: 19px;
+height: 175px;
+width: 500px;
+text-align: center;
+color: black;
+text-shadow: 10 10 20 black;
+float: left;
+}
+
+.intro
+{
+  float: right;
+}
+
+.video_message
+{
+  height: 315px;
+  margin: 40px;
+}
