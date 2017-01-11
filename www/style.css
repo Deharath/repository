@@ -1,0 +1,197 @@
+#container
+{
+  background-color: #6f7b8e;
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#logo
+{
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 400%;
+  text-align: center;
+  background-image: url(img/leniwiec.jpg);;
+  border-style:ridge;
+  border-width: medium;
+  border-color: #101e35;
+  background-size: 100px 70px;
+  background-repeat: repeat;
+  color: #e8e8e8;
+  border-radius: 11%;
+  border-color: #e8e8e8;
+  border-width: 7px;
+  margin-bottom: 15px;
+}
+#navig
+{
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-right-style: inset;
+  border-bottom-style: ridge;
+  float: left;
+  background: #5d697c;
+  min-height: 860px;
+  width: 140px;
+  padding: 10px;
+  border-width: 10px;
+  }
+#content
+{
+  border-top-style: ridge;
+  border-top-width: 10px;
+  float: left;
+  padding: 10px;
+  width: 600px;
+  }
+
+#ad
+{
+  float: left;
+  padding: 20px;
+  width: 140px;
+  min-height: 840px;
+  background-image: url(img/aaa.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  border-top-style: ridge;
+  border-left-style: inset;
+  border-right-style: ridge;
+  border-bottom-style: ridge;
+  border-width: 10px;
+}
+
+#footer
+{
+  background-color: #495363;
+  clear: both;
+  text-align: center;
+}
+
+#memy
+{
+  float:left;
+  margin: 13px 21px;
+}
+
+#good_meme
+{
+  text-align: left;
+}
+
+#bad_meme
+{
+  text-align: right;
+}
+
+#create_mem
+{
+  background-color: #f7d82c;
+  border-color: #d3a117;
+}
+
+#hot_meme
+{
+background-color: #d81604;
+border-color: #820d02
+}
+#fresh_meme
+{
+  background-color: #99f282;
+  border-color: #568c48;
+}
+
+.button_good
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    border: none;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    display: inline-block;
+}
+
+.button_bad
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    float: right;
+    background-color: #c62929;
+    border: none;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    display: inline-block;
+}
+.button_good
+  {
+    background-color: #28a82d;
+    color: white;
+}
+.button_good:active
+{
+	position: relative;
+	top: 1px;
+}
+.button_good:hover
+{
+  color: white;
+  background-color: #40d146;
+}
+
+.button_bad:hover
+{
+    background-color: #ed0707;
+    color: white;
+}
+
+.button_bad:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.button_nav
+{
+  width: 100%;
+  margin: 2px -2px 20px -2px;
+  background-color: #bfd7ff;
+  border-color: #7686a0;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: groove;
+  transition-duration: 0.2s;
+  display: inline-block;
+}
+.button_nav:active
+{
+	position: relative;
+	top: 1px;
+}
+
+body
+{
+  background:#a7b9d6;
+}
