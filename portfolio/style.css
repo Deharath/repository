@@ -1,0 +1,154 @@
+a
+{
+  text-decoration: none;
+  color: black;
+}
+body
+{
+  font-family: 'Rubik', sans-serif;
+  background-color: #4C1B1B;
+  color:#ffffff;
+}
+#container
+{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+  width: 600px;
+}
+#clock
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+}
+.rectangle
+{
+  width: 960px;
+  margin: 20px;
+}
+.square
+{
+  font-size: 22px;
+  color: black;
+  width: 50%;
+  float: left;
+}
+.tile1
+{
+  text-align: center;
+  background-color: #F6E497;
+  height: 135px;
+  width: 220px;
+  margin: 15px;
+  float: left;
+}
+.tile1:hover
+{
+  background-color: #d6c682;
+}
+.tile2
+{
+  text-align: center;
+  float: left;
+  background-color: #ffe0c1;
+  height: 135px;
+  width: 220px;
+  margin: 15px;
+}
+.tile2:hover
+{
+  background-color: #d1b69c;
+}
+.tile3
+{
+  text-align: center;
+  background-color: #BD8D46;
+  height: 135px;
+  width: 220px;
+  margin: 15px;
+  float: left;
+}
+.tile4
+{
+  font-size: 30px;
+  text-align: center;
+  background-color: #d85315;
+  width: 430px;
+  height: 95px;
+  margin: 15px;
+  padding: 20px;
+  clear: both;
+  line-height: 120%;
+}
+.tile5
+{
+  text-align: justify;
+  background-color: #d85315;
+  padding: 15px;
+  width: 440px;
+  height: 270px;
+  margin: 15px;
+  clear: both;
+}
+.tile6
+{
+  text-align: center;
+  background-color: white;
+  width: 95px; /* 440/4 + 30 + 30 + 30 + 30 */
+  height: 135px;
+  margin: 15px;
+  float: left;
+}
+.redacted
+{
+  color: black;
+  background-color: black;
+}
+
+#youtube
+{
+  background-color: #bb0000;
+}
+#youtube:hover
+{
+  background-color: #a50000;
+}
+#fb
+{
+  background-color: #3b5998;
+}
+#fb:hover
+{
+  background-color: #2d4475;
+}
+#gplus
+{
+  background-color: #dd4b39;
+}
+#gplus:hover
+{
+  background-color: #a53729;
+}
+#twitter
+{
+  background-color: #00aced;
+}
+#twitter:hover
+{
+  background-color: #0088bc;
+}
+#footer
+{
+  text-align: center;
+}
