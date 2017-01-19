@@ -1,0 +1,145 @@
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+body
+{
+  background-color: #dbdbdb;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#container
+{
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+  min-height: 800px;
+  margin-top: 20px;
+  border: 2px solid #dbdbdb;
+  border-radius: 3px;
+}
+#menu
+{
+  background-color: black;
+  color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#options
+{
+  height: auto;
+  margin-right: 10px;
+}
+.menu_option
+{
+  font-size: 25px;
+  float: right;
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.menu_option:hover
+{
+  background-color: #383838;
+  border-radius: 5px;
+  transition-duration: 0.4;
+  border-width: 10px;
+  padding: 5px;
+}
+#logo
+{
+  margin-left: 10px;
+  color: #ffca2b;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 60px;
+  float: left;
+}
+#content
+{
+  text-align: center;
+  background-color: #ffca2b;
+  min-height: 300px;
+  width: 1170px;
+  padding: 15px;
+  color: black;
+}
+#footer
+{
+  width: 1200px;
+  background-color: black;
+  color: #474747;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Slider */
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+.text_slider
+{
+  font-size: 60px;
+  margin-top: 65px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+.text_slider1
+{
+  font-size: 52px;
+  padding: 40px;
+  margin-top: 150px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#absolute_opin
+{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+.opin
+{
+   margin: 10px;
+   float: left;
+}
+.opin_text
+{
+  margin-top: 7px;
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*Slider end*/
