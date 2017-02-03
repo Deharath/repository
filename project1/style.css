@@ -15,7 +15,7 @@ body
   width: 1200px;
   background-color: white;
   margin: 0 auto;
-  min-height: 800px;
+  min-height: auto;
   margin-top: 20px;
   border: 2px solid #dbdbdb;
   border-radius: 3px;
@@ -132,6 +132,11 @@ body
   width: 200px;
   text-align: center;
   font-size: 15px;
+}
+.contact_text
+{
+  font-weight: bold;
+  margin-bottom: 3px;
 }
 @-webkit-keyframes fade {
   from {opacity: .4}
