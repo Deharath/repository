@@ -34,7 +34,7 @@ body
 }
 .menu_option
 {
-  font-size: 25px;
+  font-size: 160%;
   float: right;
   text-align: left;
   margin: 10px;
@@ -137,6 +137,29 @@ body
 {
   font-weight: bold;
   margin-bottom: 3px;
+}
+
+.car_pic
+{
+ float: left;
+ margin: 5px;
+ width: 320px;
+ height: 200px;
+}
+
+.car_text
+{
+  font-size: 120%;
+  width: 820px;
+  height: 200px;
+  float: left;
+  margin: 5px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.text_offer
+{
+  margin-bottom: 10px;
 }
 @-webkit-keyframes fade {
   from {opacity: .4}
