@@ -1,0 +1,36 @@
+body
+{
+  color: #02051f;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+a
+{
+  text-decoration: none;
+}
+#container
+{
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1160px;
+  height: auto;
+}
+#content
+{
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#logo
+{
+  float:left;
+  margin-top: 74px;
+}
+.menu_element
+{
+  margin-top: 74px;
+  float: right;
+  margin-left: 14px;
+  margin-right: 14px;
+}
